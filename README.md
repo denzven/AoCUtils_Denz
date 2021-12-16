@@ -50,8 +50,25 @@ This code dynamically changes adding the <part> and <day> in each file.
 
 This project is still in WIP and I have planned to add a lot more funtions and features to make solving these puzzles easier and not a headache in organising hundreds of files :)
 
+Please Note that right now the code is *extremely slow* taking about [300 to 350 seconds](https://github.com/denzven/AoCUtils_Denz/blob/main/cmd_output.txt#L198) to complete from start to finish (about 5-6 mins approx.)
+
+
 Please do Star the repo if you found it useful [⭐](https://github.com/denzven/AoCUtils_Denz)
 
 If you feel something needs to be added, open a issue to put in the suggestion or fork the repo and make a pull request 💜
 
 Made by [Denzven](https://github.com/denzven/) with love 💜 and [Python](https://github.com/topics/python)  
+
+
+### Dislaimer
+```
+I DO NOT RECOMMEND TO USE THIS TOOL TO ABUSE AND CAUSE DAMAGE TO AOC SERVERS/PARTICPANTS ETC. USE THIS JUSDICIOUSLY AND UNDER STRICT OBSERVATION.
+
+I DO NOT TAKE RESPONSIBILITY OF ANY DAMAGE OCCURED TO ANY PERSON OR PROPERTY OR ANY ACCOUNT BANNED FROM AOC.
+
+PLEASE USE CAUTIOUSLY AND CAREFULLY, UNDERSTANDING ALL RISKS INVOLVED
+
+THANK YOU,
+REGARDS,
+DENZVEN
+```
