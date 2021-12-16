@@ -1,0 +1,1219 @@
+D:\AoCUtils_Denz>tree /f /a
+D:.
+|
++---AdventOfCode
+|   +---2015
+|   |   +---Day0
+|   |   |       Day0Input.txt
+|   |   |       Day0Part1.py
+|   |   |       Day0Part2.py
+|   |   |       Day0Ques.txt
+|   |   |       README_Day0.md
+|   |   |
+|   |   +---Day1
+|   |   |       Day1Input.txt
+|   |   |       Day1Part1.py
+|   |   |       Day1Part2.py
+|   |   |       Day1Ques.txt
+|   |   |       README_Day1.md
+|   |   |
+|   |   +---Day10
+|   |   |       Day10Input.txt
+|   |   |       Day10Part1.py
+|   |   |       Day10Part2.py
+|   |   |       Day10Ques.txt
+|   |   |       README_Day10.md
+|   |   |
+|   |   +---Day11
+|   |   |       Day11Input.txt
+|   |   |       Day11Part1.py
+|   |   |       Day11Part2.py
+|   |   |       Day11Ques.txt
+|   |   |       README_Day11.md
+|   |   |
+|   |   +---Day12
+|   |   |       Day12Input.txt
+|   |   |       Day12Part1.py
+|   |   |       Day12Part2.py
+|   |   |       Day12Ques.txt
+|   |   |       README_Day12.md
+|   |   |
+|   |   +---Day13
+|   |   |       Day13Input.txt
+|   |   |       Day13Part1.py
+|   |   |       Day13Part2.py
+|   |   |       Day13Ques.txt
+|   |   |       README_Day13.md
+|   |   |
+|   |   +---Day14
+|   |   |       Day14Input.txt
+|   |   |       Day14Part1.py
+|   |   |       Day14Part2.py
+|   |   |       Day14Ques.txt
+|   |   |       README_Day14.md
+|   |   |
+|   |   +---Day15
+|   |   |       Day15Input.txt
+|   |   |       Day15Part1.py
+|   |   |       Day15Part2.py
+|   |   |       Day15Ques.txt
+|   |   |       README_Day15.md
+|   |   |
+|   |   +---Day16
+|   |   |       Day16Input.txt
+|   |   |       Day16Part1.py
+|   |   |       Day16Part2.py
+|   |   |       Day16Ques.txt
+|   |   |       README_Day16.md
+|   |   |
+|   |   +---Day17
+|   |   |       Day17Input.txt
+|   |   |       Day17Part1.py
+|   |   |       Day17Part2.py
+|   |   |       Day17Ques.txt
+|   |   |       README_Day17.md
+|   |   |
+|   |   +---Day18
+|   |   |       Day18Input.txt
+|   |   |       Day18Part1.py
+|   |   |       Day18Part2.py
+|   |   |       Day18Ques.txt
+|   |   |       README_Day18.md
+|   |   |
+|   |   +---Day19
+|   |   |       Day19Input.txt
+|   |   |       Day19Part1.py
+|   |   |       Day19Part2.py
+|   |   |       Day19Ques.txt
+|   |   |       README_Day19.md
+|   |   |
+|   |   +---Day2
+|   |   |       Day2Input.txt
+|   |   |       Day2Part1.py
+|   |   |       Day2Part2.py
+|   |   |       Day2Ques.txt
+|   |   |       README_Day2.md
+|   |   |
+|   |   +---Day20
+|   |   |       Day20Input.txt
+|   |   |       Day20Part1.py
+|   |   |       Day20Part2.py
+|   |   |       Day20Ques.txt
+|   |   |       README_Day20.md
+|   |   |
+|   |   +---Day21
+|   |   |       Day21Input.txt
+|   |   |       Day21Part1.py
+|   |   |       Day21Part2.py
+|   |   |       Day21Ques.txt
+|   |   |       README_Day21.md
+|   |   |
+|   |   +---Day22
+|   |   |       Day22Input.txt
+|   |   |       Day22Part1.py
+|   |   |       Day22Part2.py
+|   |   |       Day22Ques.txt
+|   |   |       README_Day22.md
+|   |   |
+|   |   +---Day23
+|   |   |       Day23Input.txt
+|   |   |       Day23Part1.py
+|   |   |       Day23Part2.py
+|   |   |       Day23Ques.txt
+|   |   |       README_Day23.md
+|   |   |
+|   |   +---Day24
+|   |   |       Day24Input.txt
+|   |   |       Day24Part1.py
+|   |   |       Day24Part2.py
+|   |   |       Day24Ques.txt
+|   |   |       README_Day24.md
+|   |   |
+|   |   +---Day25
+|   |   |       Day25Input.txt
+|   |   |       Day25Part1.py
+|   |   |       Day25Part2.py
+|   |   |       Day25Ques.txt
+|   |   |       README_Day25.md
+|   |   |
+|   |   +---Day3
+|   |   |       Day3Input.txt
+|   |   |       Day3Part1.py
+|   |   |       Day3Part2.py
+|   |   |       Day3Ques.txt
+|   |   |       README_Day3.md
+|   |   |
+|   |   +---Day4
+|   |   |       Day4Input.txt
+|   |   |       Day4Part1.py
+|   |   |       Day4Part2.py
+|   |   |       Day4Ques.txt
+|   |   |       README_Day4.md
+|   |   |
+|   |   +---Day5
+|   |   |       Day5Input.txt
+|   |   |       Day5Part1.py
+|   |   |       Day5Part2.py
+|   |   |       Day5Ques.txt
+|   |   |       README_Day5.md
+|   |   |
+|   |   +---Day6
+|   |   |       Day6Input.txt
+|   |   |       Day6Part1.py
+|   |   |       Day6Part2.py
+|   |   |       Day6Ques.txt
+|   |   |       README_Day6.md
+|   |   |
+|   |   +---Day7
+|   |   |       Day7Input.txt
+|   |   |       Day7Part1.py
+|   |   |       Day7Part2.py
+|   |   |       Day7Ques.txt
+|   |   |       README_Day7.md
+|   |   |
+|   |   +---Day8
+|   |   |       Day8Input.txt
+|   |   |       Day8Part1.py
+|   |   |       Day8Part2.py
+|   |   |       Day8Ques.txt
+|   |   |       README_Day8.md
+|   |   |
+|   |   \---Day9
+|   |           Day9Input.txt
+|   |           Day9Part1.py
+|   |           Day9Part2.py
+|   |           Day9Ques.txt
+|   |           README_Day9.md
+|   |
+|   +---2016
+|   |   +---Day0
+|   |   |       Day0Input.txt
+|   |   |       Day0Part1.py
+|   |   |       Day0Part2.py
+|   |   |       Day0Ques.txt
+|   |   |       README_Day0.md
+|   |   |
+|   |   +---Day1
+|   |   |       Day1Input.txt
+|   |   |       Day1Part1.py
+|   |   |       Day1Part2.py
+|   |   |       Day1Ques.txt
+|   |   |       README_Day1.md
+|   |   |
+|   |   +---Day10
+|   |   |       Day10Input.txt
+|   |   |       Day10Part1.py
+|   |   |       Day10Part2.py
+|   |   |       Day10Ques.txt
+|   |   |       README_Day10.md
+|   |   |
+|   |   +---Day11
+|   |   |       Day11Input.txt
+|   |   |       Day11Part1.py
+|   |   |       Day11Part2.py
+|   |   |       Day11Ques.txt
+|   |   |       README_Day11.md
+|   |   |
+|   |   +---Day12
+|   |   |       Day12Input.txt
+|   |   |       Day12Part1.py
+|   |   |       Day12Part2.py
+|   |   |       Day12Ques.txt
+|   |   |       README_Day12.md
+|   |   |
+|   |   +---Day13
+|   |   |       Day13Input.txt
+|   |   |       Day13Part1.py
+|   |   |       Day13Part2.py
+|   |   |       Day13Ques.txt
+|   |   |       README_Day13.md
+|   |   |
+|   |   +---Day14
+|   |   |       Day14Input.txt
+|   |   |       Day14Part1.py
+|   |   |       Day14Part2.py
+|   |   |       Day14Ques.txt
+|   |   |       README_Day14.md
+|   |   |
+|   |   +---Day15
+|   |   |       Day15Input.txt
+|   |   |       Day15Part1.py
+|   |   |       Day15Part2.py
+|   |   |       Day15Ques.txt
+|   |   |       README_Day15.md
+|   |   |
+|   |   +---Day16
+|   |   |       Day16Input.txt
+|   |   |       Day16Part1.py
+|   |   |       Day16Part2.py
+|   |   |       Day16Ques.txt
+|   |   |       README_Day16.md
+|   |   |
+|   |   +---Day17
+|   |   |       Day17Input.txt
+|   |   |       Day17Part1.py
+|   |   |       Day17Part2.py
+|   |   |       Day17Ques.txt
+|   |   |       README_Day17.md
+|   |   |
+|   |   +---Day18
+|   |   |       Day18Input.txt
+|   |   |       Day18Part1.py
+|   |   |       Day18Part2.py
+|   |   |       Day18Ques.txt
+|   |   |       README_Day18.md
+|   |   |
+|   |   +---Day19
+|   |   |       Day19Input.txt
+|   |   |       Day19Part1.py
+|   |   |       Day19Part2.py
+|   |   |       Day19Ques.txt
+|   |   |       README_Day19.md
+|   |   |
+|   |   +---Day2
+|   |   |       Day2Input.txt
+|   |   |       Day2Part1.py
+|   |   |       Day2Part2.py
+|   |   |       Day2Ques.txt
+|   |   |       README_Day2.md
+|   |   |
+|   |   +---Day20
+|   |   |       Day20Input.txt
+|   |   |       Day20Part1.py
+|   |   |       Day20Part2.py
+|   |   |       Day20Ques.txt
+|   |   |       README_Day20.md
+|   |   |
+|   |   +---Day21
+|   |   |       Day21Input.txt
+|   |   |       Day21Part1.py
+|   |   |       Day21Part2.py
+|   |   |       Day21Ques.txt
+|   |   |       README_Day21.md
+|   |   |
+|   |   +---Day22
+|   |   |       Day22Input.txt
+|   |   |       Day22Part1.py
+|   |   |       Day22Part2.py
+|   |   |       Day22Ques.txt
+|   |   |       README_Day22.md
+|   |   |
+|   |   +---Day23
+|   |   |       Day23Input.txt
+|   |   |       Day23Part1.py
+|   |   |       Day23Part2.py
+|   |   |       Day23Ques.txt
+|   |   |       README_Day23.md
+|   |   |
+|   |   +---Day24
+|   |   |       Day24Input.txt
+|   |   |       Day24Part1.py
+|   |   |       Day24Part2.py
+|   |   |       Day24Ques.txt
+|   |   |       README_Day24.md
+|   |   |
+|   |   +---Day25
+|   |   |       Day25Input.txt
+|   |   |       Day25Part1.py
+|   |   |       Day25Part2.py
+|   |   |       Day25Ques.txt
+|   |   |       README_Day25.md
+|   |   |
+|   |   +---Day3
+|   |   |       Day3Input.txt
+|   |   |       Day3Part1.py
+|   |   |       Day3Part2.py
+|   |   |       Day3Ques.txt
+|   |   |       README_Day3.md
+|   |   |
+|   |   +---Day4
+|   |   |       Day4Input.txt
+|   |   |       Day4Part1.py
+|   |   |       Day4Part2.py
+|   |   |       Day4Ques.txt
+|   |   |       README_Day4.md
+|   |   |
+|   |   +---Day5
+|   |   |       Day5Input.txt
+|   |   |       Day5Part1.py
+|   |   |       Day5Part2.py
+|   |   |       Day5Ques.txt
+|   |   |       README_Day5.md
+|   |   |
+|   |   +---Day6
+|   |   |       Day6Input.txt
+|   |   |       Day6Part1.py
+|   |   |       Day6Part2.py
+|   |   |       Day6Ques.txt
+|   |   |       README_Day6.md
+|   |   |
+|   |   +---Day7
+|   |   |       Day7Input.txt
+|   |   |       Day7Part1.py
+|   |   |       Day7Part2.py
+|   |   |       Day7Ques.txt
+|   |   |       README_Day7.md
+|   |   |
+|   |   +---Day8
+|   |   |       Day8Input.txt
+|   |   |       Day8Part1.py
+|   |   |       Day8Part2.py
+|   |   |       Day8Ques.txt
+|   |   |       README_Day8.md
+|   |   |
+|   |   \---Day9
+|   |           Day9Input.txt
+|   |           Day9Part1.py
+|   |           Day9Part2.py
+|   |           Day9Ques.txt
+|   |           README_Day9.md
+|   |
+|   +---2017
+|   |   +---Day0
+|   |   |       Day0Input.txt
+|   |   |       Day0Part1.py
+|   |   |       Day0Part2.py
+|   |   |       Day0Ques.txt
+|   |   |       README_Day0.md
+|   |   |
+|   |   +---Day1
+|   |   |       Day1Input.txt
+|   |   |       Day1Part1.py
+|   |   |       Day1Part2.py
+|   |   |       Day1Ques.txt
+|   |   |       README_Day1.md
+|   |   |
+|   |   +---Day10
+|   |   |       Day10Input.txt
+|   |   |       Day10Part1.py
+|   |   |       Day10Part2.py
+|   |   |       Day10Ques.txt
+|   |   |       README_Day10.md
+|   |   |
+|   |   +---Day11
+|   |   |       Day11Input.txt
+|   |   |       Day11Part1.py
+|   |   |       Day11Part2.py
+|   |   |       Day11Ques.txt
+|   |   |       README_Day11.md
+|   |   |
+|   |   +---Day12
+|   |   |       Day12Input.txt
+|   |   |       Day12Part1.py
+|   |   |       Day12Part2.py
+|   |   |       Day12Ques.txt
+|   |   |       README_Day12.md
+|   |   |
+|   |   +---Day13
+|   |   |       Day13Input.txt
+|   |   |       Day13Part1.py
+|   |   |       Day13Part2.py
+|   |   |       Day13Ques.txt
+|   |   |       README_Day13.md
+|   |   |
+|   |   +---Day14
+|   |   |       Day14Input.txt
+|   |   |       Day14Part1.py
+|   |   |       Day14Part2.py
+|   |   |       Day14Ques.txt
+|   |   |       README_Day14.md
+|   |   |
+|   |   +---Day15
+|   |   |       Day15Input.txt
+|   |   |       Day15Part1.py
+|   |   |       Day15Part2.py
+|   |   |       Day15Ques.txt
+|   |   |       README_Day15.md
+|   |   |
+|   |   +---Day16
+|   |   |       Day16Input.txt
+|   |   |       Day16Part1.py
+|   |   |       Day16Part2.py
+|   |   |       Day16Ques.txt
+|   |   |       README_Day16.md
+|   |   |
+|   |   +---Day17
+|   |   |       Day17Input.txt
+|   |   |       Day17Part1.py
+|   |   |       Day17Part2.py
+|   |   |       Day17Ques.txt
+|   |   |       README_Day17.md
+|   |   |
+|   |   +---Day18
+|   |   |       Day18Input.txt
+|   |   |       Day18Part1.py
+|   |   |       Day18Part2.py
+|   |   |       Day18Ques.txt
+|   |   |       README_Day18.md
+|   |   |
+|   |   +---Day19
+|   |   |       Day19Input.txt
+|   |   |       Day19Part1.py
+|   |   |       Day19Part2.py
+|   |   |       Day19Ques.txt
+|   |   |       README_Day19.md
+|   |   |
+|   |   +---Day2
+|   |   |       Day2Input.txt
+|   |   |       Day2Part1.py
+|   |   |       Day2Part2.py
+|   |   |       Day2Ques.txt
+|   |   |       README_Day2.md
+|   |   |
+|   |   +---Day20
+|   |   |       Day20Input.txt
+|   |   |       Day20Part1.py
+|   |   |       Day20Part2.py
+|   |   |       Day20Ques.txt
+|   |   |       README_Day20.md
+|   |   |
+|   |   +---Day21
+|   |   |       Day21Input.txt
+|   |   |       Day21Part1.py
+|   |   |       Day21Part2.py
+|   |   |       Day21Ques.txt
+|   |   |       README_Day21.md
+|   |   |
+|   |   +---Day22
+|   |   |       Day22Input.txt
+|   |   |       Day22Part1.py
+|   |   |       Day22Part2.py
+|   |   |       Day22Ques.txt
+|   |   |       README_Day22.md
+|   |   |
+|   |   +---Day23
+|   |   |       Day23Input.txt
+|   |   |       Day23Part1.py
+|   |   |       Day23Part2.py
+|   |   |       Day23Ques.txt
+|   |   |       README_Day23.md
+|   |   |
+|   |   +---Day24
+|   |   |       Day24Input.txt
+|   |   |       Day24Part1.py
+|   |   |       Day24Part2.py
+|   |   |       Day24Ques.txt
+|   |   |       README_Day24.md
+|   |   |
+|   |   +---Day25
+|   |   |       Day25Input.txt
+|   |   |       Day25Part1.py
+|   |   |       Day25Part2.py
+|   |   |       Day25Ques.txt
+|   |   |       README_Day25.md
+|   |   |
+|   |   +---Day3
+|   |   |       Day3Input.txt
+|   |   |       Day3Part1.py
+|   |   |       Day3Part2.py
+|   |   |       Day3Ques.txt
+|   |   |       README_Day3.md
+|   |   |
+|   |   +---Day4
+|   |   |       Day4Input.txt
+|   |   |       Day4Part1.py
+|   |   |       Day4Part2.py
+|   |   |       Day4Ques.txt
+|   |   |       README_Day4.md
+|   |   |
+|   |   +---Day5
+|   |   |       Day5Input.txt
+|   |   |       Day5Part1.py
+|   |   |       Day5Part2.py
+|   |   |       Day5Ques.txt
+|   |   |       README_Day5.md
+|   |   |
+|   |   +---Day6
+|   |   |       Day6Input.txt
+|   |   |       Day6Part1.py
+|   |   |       Day6Part2.py
+|   |   |       Day6Ques.txt
+|   |   |       README_Day6.md
+|   |   |
+|   |   +---Day7
+|   |   |       Day7Input.txt
+|   |   |       Day7Part1.py
+|   |   |       Day7Part2.py
+|   |   |       Day7Ques.txt
+|   |   |       README_Day7.md
+|   |   |
+|   |   +---Day8
+|   |   |       Day8Input.txt
+|   |   |       Day8Part1.py
+|   |   |       Day8Part2.py
+|   |   |       Day8Ques.txt
+|   |   |       README_Day8.md
+|   |   |
+|   |   \---Day9
+|   |           Day9Input.txt
+|   |           Day9Part1.py
+|   |           Day9Part2.py
+|   |           Day9Ques.txt
+|   |           README_Day9.md
+|   |
+|   +---2018
+|   |   +---Day0
+|   |   |       Day0Input.txt
+|   |   |       Day0Part1.py
+|   |   |       Day0Part2.py
+|   |   |       Day0Ques.txt
+|   |   |       README_Day0.md
+|   |   |
+|   |   +---Day1
+|   |   |       Day1Input.txt
+|   |   |       Day1Part1.py
+|   |   |       Day1Part2.py
+|   |   |       Day1Ques.txt
+|   |   |       README_Day1.md
+|   |   |
+|   |   +---Day10
+|   |   |       Day10Input.txt
+|   |   |       Day10Part1.py
+|   |   |       Day10Part2.py
+|   |   |       Day10Ques.txt
+|   |   |       README_Day10.md
+|   |   |
+|   |   +---Day11
+|   |   |       Day11Input.txt
+|   |   |       Day11Part1.py
+|   |   |       Day11Part2.py
+|   |   |       Day11Ques.txt
+|   |   |       README_Day11.md
+|   |   |
+|   |   +---Day12
+|   |   |       Day12Input.txt
+|   |   |       Day12Part1.py
+|   |   |       Day12Part2.py
+|   |   |       Day12Ques.txt
+|   |   |       README_Day12.md
+|   |   |
+|   |   +---Day13
+|   |   |       Day13Input.txt
+|   |   |       Day13Part1.py
+|   |   |       Day13Part2.py
+|   |   |       Day13Ques.txt
+|   |   |       README_Day13.md
+|   |   |
+|   |   +---Day14
+|   |   |       Day14Input.txt
+|   |   |       Day14Part1.py
+|   |   |       Day14Part2.py
+|   |   |       Day14Ques.txt
+|   |   |       README_Day14.md
+|   |   |
+|   |   +---Day15
+|   |   |       Day15Input.txt
+|   |   |       Day15Part1.py
+|   |   |       Day15Part2.py
+|   |   |       Day15Ques.txt
+|   |   |       README_Day15.md
+|   |   |
+|   |   +---Day16
+|   |   |       Day16Input.txt
+|   |   |       Day16Part1.py
+|   |   |       Day16Part2.py
+|   |   |       Day16Ques.txt
+|   |   |       README_Day16.md
+|   |   |
+|   |   +---Day17
+|   |   |       Day17Input.txt
+|   |   |       Day17Part1.py
+|   |   |       Day17Part2.py
+|   |   |       Day17Ques.txt
+|   |   |       README_Day17.md
+|   |   |
+|   |   +---Day18
+|   |   |       Day18Input.txt
+|   |   |       Day18Part1.py
+|   |   |       Day18Part2.py
+|   |   |       Day18Ques.txt
+|   |   |       README_Day18.md
+|   |   |
+|   |   +---Day19
+|   |   |       Day19Input.txt
+|   |   |       Day19Part1.py
+|   |   |       Day19Part2.py
+|   |   |       Day19Ques.txt
+|   |   |       README_Day19.md
+|   |   |
+|   |   +---Day2
+|   |   |       Day2Input.txt
+|   |   |       Day2Part1.py
+|   |   |       Day2Part2.py
+|   |   |       Day2Ques.txt
+|   |   |       README_Day2.md
+|   |   |
+|   |   +---Day20
+|   |   |       Day20Input.txt
+|   |   |       Day20Part1.py
+|   |   |       Day20Part2.py
+|   |   |       Day20Ques.txt
+|   |   |       README_Day20.md
+|   |   |
+|   |   +---Day21
+|   |   |       Day21Input.txt
+|   |   |       Day21Part1.py
+|   |   |       Day21Part2.py
+|   |   |       Day21Ques.txt
+|   |   |       README_Day21.md
+|   |   |
+|   |   +---Day22
+|   |   |       Day22Input.txt
+|   |   |       Day22Part1.py
+|   |   |       Day22Part2.py
+|   |   |       Day22Ques.txt
+|   |   |       README_Day22.md
+|   |   |
+|   |   +---Day23
+|   |   |       Day23Input.txt
+|   |   |       Day23Part1.py
+|   |   |       Day23Part2.py
+|   |   |       Day23Ques.txt
+|   |   |       README_Day23.md
+|   |   |
+|   |   +---Day24
+|   |   |       Day24Input.txt
+|   |   |       Day24Part1.py
+|   |   |       Day24Part2.py
+|   |   |       Day24Ques.txt
+|   |   |       README_Day24.md
+|   |   |
+|   |   +---Day25
+|   |   |       Day25Input.txt
+|   |   |       Day25Part1.py
+|   |   |       Day25Part2.py
+|   |   |       Day25Ques.txt
+|   |   |       README_Day25.md
+|   |   |
+|   |   +---Day3
+|   |   |       Day3Input.txt
+|   |   |       Day3Part1.py
+|   |   |       Day3Part2.py
+|   |   |       Day3Ques.txt
+|   |   |       README_Day3.md
+|   |   |
+|   |   +---Day4
+|   |   |       Day4Input.txt
+|   |   |       Day4Part1.py
+|   |   |       Day4Part2.py
+|   |   |       Day4Ques.txt
+|   |   |       README_Day4.md
+|   |   |
+|   |   +---Day5
+|   |   |       Day5Input.txt
+|   |   |       Day5Part1.py
+|   |   |       Day5Part2.py
+|   |   |       Day5Ques.txt
+|   |   |       README_Day5.md
+|   |   |
+|   |   +---Day6
+|   |   |       Day6Input.txt
+|   |   |       Day6Part1.py
+|   |   |       Day6Part2.py
+|   |   |       Day6Ques.txt
+|   |   |       README_Day6.md
+|   |   |
+|   |   +---Day7
+|   |   |       Day7Input.txt
+|   |   |       Day7Part1.py
+|   |   |       Day7Part2.py
+|   |   |       Day7Ques.txt
+|   |   |       README_Day7.md
+|   |   |
+|   |   +---Day8
+|   |   |       Day8Input.txt
+|   |   |       Day8Part1.py
+|   |   |       Day8Part2.py
+|   |   |       Day8Ques.txt
+|   |   |       README_Day8.md
+|   |   |
+|   |   \---Day9
+|   |           Day9Input.txt
+|   |           Day9Part1.py
+|   |           Day9Part2.py
+|   |           Day9Ques.txt
+|   |           README_Day9.md
+|   |
+|   +---2019
+|   |   +---Day0
+|   |   |       Day0Input.txt
+|   |   |       Day0Part1.py
+|   |   |       Day0Part2.py
+|   |   |       Day0Ques.txt
+|   |   |       README_Day0.md
+|   |   |
+|   |   +---Day1
+|   |   |       Day1Input.txt
+|   |   |       Day1Part1.py
+|   |   |       Day1Part2.py
+|   |   |       Day1Ques.txt
+|   |   |       README_Day1.md
+|   |   |
+|   |   +---Day10
+|   |   |       Day10Input.txt
+|   |   |       Day10Part1.py
+|   |   |       Day10Part2.py
+|   |   |       Day10Ques.txt
+|   |   |       README_Day10.md
+|   |   |
+|   |   +---Day11
+|   |   |       Day11Input.txt
+|   |   |       Day11Part1.py
+|   |   |       Day11Part2.py
+|   |   |       Day11Ques.txt
+|   |   |       README_Day11.md
+|   |   |
+|   |   +---Day12
+|   |   |       Day12Input.txt
+|   |   |       Day12Part1.py
+|   |   |       Day12Part2.py
+|   |   |       Day12Ques.txt
+|   |   |       README_Day12.md
+|   |   |
+|   |   +---Day13
+|   |   |       Day13Input.txt
+|   |   |       Day13Part1.py
+|   |   |       Day13Part2.py
+|   |   |       Day13Ques.txt
+|   |   |       README_Day13.md
+|   |   |
+|   |   +---Day14
+|   |   |       Day14Input.txt
+|   |   |       Day14Part1.py
+|   |   |       Day14Part2.py
+|   |   |       Day14Ques.txt
+|   |   |       README_Day14.md
+|   |   |
+|   |   +---Day15
+|   |   |       Day15Input.txt
+|   |   |       Day15Part1.py
+|   |   |       Day15Part2.py
+|   |   |       Day15Ques.txt
+|   |   |       README_Day15.md
+|   |   |
+|   |   +---Day16
+|   |   |       Day16Input.txt
+|   |   |       Day16Part1.py
+|   |   |       Day16Part2.py
+|   |   |       Day16Ques.txt
+|   |   |       README_Day16.md
+|   |   |
+|   |   +---Day17
+|   |   |       Day17Input.txt
+|   |   |       Day17Part1.py
+|   |   |       Day17Part2.py
+|   |   |       Day17Ques.txt
+|   |   |       README_Day17.md
+|   |   |
+|   |   +---Day18
+|   |   |       Day18Input.txt
+|   |   |       Day18Part1.py
+|   |   |       Day18Part2.py
+|   |   |       Day18Ques.txt
+|   |   |       README_Day18.md
+|   |   |
+|   |   +---Day19
+|   |   |       Day19Input.txt
+|   |   |       Day19Part1.py
+|   |   |       Day19Part2.py
+|   |   |       Day19Ques.txt
+|   |   |       README_Day19.md
+|   |   |
+|   |   +---Day2
+|   |   |       Day2Input.txt
+|   |   |       Day2Part1.py
+|   |   |       Day2Part2.py
+|   |   |       Day2Ques.txt
+|   |   |       README_Day2.md
+|   |   |
+|   |   +---Day20
+|   |   |       Day20Input.txt
+|   |   |       Day20Part1.py
+|   |   |       Day20Part2.py
+|   |   |       Day20Ques.txt
+|   |   |       README_Day20.md
+|   |   |
+|   |   +---Day21
+|   |   |       Day21Input.txt
+|   |   |       Day21Part1.py
+|   |   |       Day21Part2.py
+|   |   |       Day21Ques.txt
+|   |   |       README_Day21.md
+|   |   |
+|   |   +---Day22
+|   |   |       Day22Input.txt
+|   |   |       Day22Part1.py
+|   |   |       Day22Part2.py
+|   |   |       Day22Ques.txt
+|   |   |       README_Day22.md
+|   |   |
+|   |   +---Day23
+|   |   |       Day23Input.txt
+|   |   |       Day23Part1.py
+|   |   |       Day23Part2.py
+|   |   |       Day23Ques.txt
+|   |   |       README_Day23.md
+|   |   |
+|   |   +---Day24
+|   |   |       Day24Input.txt
+|   |   |       Day24Part1.py
+|   |   |       Day24Part2.py
+|   |   |       Day24Ques.txt
+|   |   |       README_Day24.md
+|   |   |
+|   |   +---Day25
+|   |   |       Day25Input.txt
+|   |   |       Day25Part1.py
+|   |   |       Day25Part2.py
+|   |   |       Day25Ques.txt
+|   |   |       README_Day25.md
+|   |   |
+|   |   +---Day3
+|   |   |       Day3Input.txt
+|   |   |       Day3Part1.py
+|   |   |       Day3Part2.py
+|   |   |       Day3Ques.txt
+|   |   |       README_Day3.md
+|   |   |
+|   |   +---Day4
+|   |   |       Day4Input.txt
+|   |   |       Day4Part1.py
+|   |   |       Day4Part2.py
+|   |   |       Day4Ques.txt
+|   |   |       README_Day4.md
+|   |   |
+|   |   +---Day5
+|   |   |       Day5Input.txt
+|   |   |       Day5Part1.py
+|   |   |       Day5Part2.py
+|   |   |       Day5Ques.txt
+|   |   |       README_Day5.md
+|   |   |
+|   |   +---Day6
+|   |   |       Day6Input.txt
+|   |   |       Day6Part1.py
+|   |   |       Day6Part2.py
+|   |   |       Day6Ques.txt
+|   |   |       README_Day6.md
+|   |   |
+|   |   +---Day7
+|   |   |       Day7Input.txt
+|   |   |       Day7Part1.py
+|   |   |       Day7Part2.py
+|   |   |       Day7Ques.txt
+|   |   |       README_Day7.md
+|   |   |
+|   |   +---Day8
+|   |   |       Day8Input.txt
+|   |   |       Day8Part1.py
+|   |   |       Day8Part2.py
+|   |   |       Day8Ques.txt
+|   |   |       README_Day8.md
+|   |   |
+|   |   \---Day9
+|   |           Day9Input.txt
+|   |           Day9Part1.py
+|   |           Day9Part2.py
+|   |           Day9Ques.txt
+|   |           README_Day9.md
+|   |
+|   +---2020
+|   |   +---Day0
+|   |   |       Day0Input.txt
+|   |   |       Day0Part1.py
+|   |   |       Day0Part2.py
+|   |   |       Day0Ques.txt
+|   |   |       README_Day0.md
+|   |   |
+|   |   +---Day1
+|   |   |       Day1Input.txt
+|   |   |       Day1Part1.py
+|   |   |       Day1Part2.py
+|   |   |       Day1Ques.txt
+|   |   |       README_Day1.md
+|   |   |
+|   |   +---Day10
+|   |   |       Day10Input.txt
+|   |   |       Day10Part1.py
+|   |   |       Day10Part2.py
+|   |   |       Day10Ques.txt
+|   |   |       README_Day10.md
+|   |   |
+|   |   +---Day11
+|   |   |       Day11Input.txt
+|   |   |       Day11Part1.py
+|   |   |       Day11Part2.py
+|   |   |       Day11Ques.txt
+|   |   |       README_Day11.md
+|   |   |
+|   |   +---Day12
+|   |   |       Day12Input.txt
+|   |   |       Day12Part1.py
+|   |   |       Day12Part2.py
+|   |   |       Day12Ques.txt
+|   |   |       README_Day12.md
+|   |   |
+|   |   +---Day13
+|   |   |       Day13Input.txt
+|   |   |       Day13Part1.py
+|   |   |       Day13Part2.py
+|   |   |       Day13Ques.txt
+|   |   |       README_Day13.md
+|   |   |
+|   |   +---Day14
+|   |   |       Day14Input.txt
+|   |   |       Day14Part1.py
+|   |   |       Day14Part2.py
+|   |   |       Day14Ques.txt
+|   |   |       README_Day14.md
+|   |   |
+|   |   +---Day15
+|   |   |       Day15Input.txt
+|   |   |       Day15Part1.py
+|   |   |       Day15Part2.py
+|   |   |       Day15Ques.txt
+|   |   |       README_Day15.md
+|   |   |
+|   |   +---Day16
+|   |   |       Day16Input.txt
+|   |   |       Day16Part1.py
+|   |   |       Day16Part2.py
+|   |   |       Day16Ques.txt
+|   |   |       README_Day16.md
+|   |   |
+|   |   +---Day17
+|   |   |       Day17Input.txt
+|   |   |       Day17Part1.py
+|   |   |       Day17Part2.py
+|   |   |       Day17Ques.txt
+|   |   |       README_Day17.md
+|   |   |
+|   |   +---Day18
+|   |   |       Day18Input.txt
+|   |   |       Day18Part1.py
+|   |   |       Day18Part2.py
+|   |   |       Day18Ques.txt
+|   |   |       README_Day18.md
+|   |   |
+|   |   +---Day19
+|   |   |       Day19Input.txt
+|   |   |       Day19Part1.py
+|   |   |       Day19Part2.py
+|   |   |       Day19Ques.txt
+|   |   |       README_Day19.md
+|   |   |
+|   |   +---Day2
+|   |   |       Day2Input.txt
+|   |   |       Day2Part1.py
+|   |   |       Day2Part2.py
+|   |   |       Day2Ques.txt
+|   |   |       README_Day2.md
+|   |   |
+|   |   +---Day20
+|   |   |       Day20Input.txt
+|   |   |       Day20Part1.py
+|   |   |       Day20Part2.py
+|   |   |       Day20Ques.txt
+|   |   |       README_Day20.md
+|   |   |
+|   |   +---Day21
+|   |   |       Day21Input.txt
+|   |   |       Day21Part1.py
+|   |   |       Day21Part2.py
+|   |   |       Day21Ques.txt
+|   |   |       README_Day21.md
+|   |   |
+|   |   +---Day22
+|   |   |       Day22Input.txt
+|   |   |       Day22Part1.py
+|   |   |       Day22Part2.py
+|   |   |       Day22Ques.txt
+|   |   |       README_Day22.md
+|   |   |
+|   |   +---Day23
+|   |   |       Day23Input.txt
+|   |   |       Day23Part1.py
+|   |   |       Day23Part2.py
+|   |   |       Day23Ques.txt
+|   |   |       README_Day23.md
+|   |   |
+|   |   +---Day24
+|   |   |       Day24Input.txt
+|   |   |       Day24Part1.py
+|   |   |       Day24Part2.py
+|   |   |       Day24Ques.txt
+|   |   |       README_Day24.md
+|   |   |
+|   |   +---Day25
+|   |   |       Day25Input.txt
+|   |   |       Day25Part1.py
+|   |   |       Day25Part2.py
+|   |   |       Day25Ques.txt
+|   |   |       README_Day25.md
+|   |   |
+|   |   +---Day3
+|   |   |       Day3Input.txt
+|   |   |       Day3Part1.py
+|   |   |       Day3Part2.py
+|   |   |       Day3Ques.txt
+|   |   |       README_Day3.md
+|   |   |
+|   |   +---Day4
+|   |   |       Day4Input.txt
+|   |   |       Day4Part1.py
+|   |   |       Day4Part2.py
+|   |   |       Day4Ques.txt
+|   |   |       README_Day4.md
+|   |   |
+|   |   +---Day5
+|   |   |       Day5Input.txt
+|   |   |       Day5Part1.py
+|   |   |       Day5Part2.py
+|   |   |       Day5Ques.txt
+|   |   |       README_Day5.md
+|   |   |
+|   |   +---Day6
+|   |   |       Day6Input.txt
+|   |   |       Day6Part1.py
+|   |   |       Day6Part2.py
+|   |   |       Day6Ques.txt
+|   |   |       README_Day6.md
+|   |   |
+|   |   +---Day7
+|   |   |       Day7Input.txt
+|   |   |       Day7Part1.py
+|   |   |       Day7Part2.py
+|   |   |       Day7Ques.txt
+|   |   |       README_Day7.md
+|   |   |
+|   |   +---Day8
+|   |   |       Day8Input.txt
+|   |   |       Day8Part1.py
+|   |   |       Day8Part2.py
+|   |   |       Day8Ques.txt
+|   |   |       README_Day8.md
+|   |   |
+|   |   \---Day9
+|   |           Day9Input.txt
+|   |           Day9Part1.py
+|   |           Day9Part2.py
+|   |           Day9Ques.txt
+|   |           README_Day9.md
+|   |
+|   \---2021
+|       +---Day0
+|       |       Day0Input.txt
+|       |       Day0Part1.py
+|       |       Day0Part2.py
+|       |       Day0Ques.txt
+|       |       README_Day0.md
+|       |
+|       +---Day1
+|       |       Day1Input.txt
+|       |       Day1Part1.py
+|       |       Day1Part2.py
+|       |       Day1Ques.txt
+|       |       README_Day1.md
+|       |
+|       +---Day10
+|       |       Day10Input.txt
+|       |       Day10Part1.py
+|       |       Day10Part2.py
+|       |       Day10Ques.txt
+|       |       README_Day10.md
+|       |
+|       +---Day11
+|       |       Day11Input.txt
+|       |       Day11Part1.py
+|       |       Day11Part2.py
+|       |       Day11Ques.txt
+|       |       README_Day11.md
+|       |
+|       +---Day12
+|       |       Day12Input.txt
+|       |       Day12Part1.py
+|       |       Day12Part2.py
+|       |       Day12Ques.txt
+|       |       README_Day12.md
+|       |
+|       +---Day13
+|       |       Day13Input.txt
+|       |       Day13Part1.py
+|       |       Day13Part2.py
+|       |       Day13Ques.txt
+|       |       README_Day13.md
+|       |
+|       +---Day14
+|       |       Day14Input.txt
+|       |       Day14Part1.py
+|       |       Day14Part2.py
+|       |       Day14Ques.txt
+|       |       README_Day14.md
+|       |
+|       +---Day15
+|       |       Day15Input.txt
+|       |       Day15Part1.py
+|       |       Day15Part2.py
+|       |       Day15Ques.txt
+|       |       README_Day15.md
+|       |
+|       +---Day16
+|       |       Day16Input.txt
+|       |
+|       +---Day2
+|       |       Day2Input.txt
+|       |       Day2Part1.py
+|       |       Day2Part2.py
+|       |       Day2Ques.txt
+|       |       README_Day2.md
+|       |
+|       +---Day3
+|       |       Day3Input.txt
+|       |       Day3Part1.py
+|       |       Day3Part2.py
+|       |       Day3Ques.txt
+|       |       README_Day3.md
+|       |
+|       +---Day4
+|       |       Day4Input.txt
+|       |       Day4Part1.py
+|       |       Day4Part2.py
+|       |       Day4Ques.txt
+|       |       README_Day4.md
+|       |
+|       +---Day5
+|       |       Day5Input.txt
+|       |       Day5Part1.py
+|       |       Day5Part2.py
+|       |       Day5Ques.txt
+|       |       README_Day5.md
+|       |
+|       +---Day6
+|       |       Day6Input.txt
+|       |       Day6Part1.py
+|       |       Day6Part2.py
+|       |       Day6Ques.txt
+|       |       README_Day6.md
+|       |
+|       +---Day7
+|       |       Day7Input.txt
+|       |       Day7Part1.py
+|       |       Day7Part2.py
+|       |       Day7Ques.txt
+|       |       README_Day7.md
+|       |
+|       +---Day8
+|       |       Day8Input.txt
+|       |       Day8Part1.py
+|       |       Day8Part2.py
+|       |       Day8Ques.txt
+|       |       README_Day8.md
+|       |
+|       \---Day9
+|               Day9Input.txt
+|               Day9Part1.py
+|               Day9Part2.py
+|               Day9Ques.txt
+|               README_Day9.md
+|
+\---

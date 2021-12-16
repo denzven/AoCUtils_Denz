@@ -36,28 +36,26 @@ def BoilerPlate(SesssionCookie):
                     # Inputs
                     if f.name.endswith("Input.txt"):
 
-                        print(f"https://adventofcode.com/{year}/day/{i}/input")
+                        InputUrl = f"https://adventofcode.com/{year}/day/{i}"
+                        print(InputUrl)
                         cookie = {"Cookie": SesssionCookie}
-                        Input_txt = requests.get(
-                            f"https://adventofcode.com/{year}/day/{i}/input",
-                            headers=cookie,
-                        )
-                        Input_txtQues = requests.get(
-                            f"https://adventofcode.com/{year}/day/{i}", headers=cookie
+                        InputText = requests.get(InputUrl + "/input",headers=cookie)
+                        InputTextQues = requests.get(
+                            InputUrl, headers=cookie
                         )
                         ErrorMsg = "please don't repeatedly request this endpoint before it unlocks! the calendar countdown is synchronized with the server time; the link will be enabled on the calendar the instant this puzzle becomes available."
                         NotFoundMsg = "404 not found"
 
-                        if NotFoundMsg in str(Input_txt.text).lower():
+                        if NotFoundMsg in str(InputText.text).lower():
                             print("This puzzle doesnt exist")
                             pass
 
-                        elif ErrorMsg in str(Input_txt.text).lower():
+                        elif ErrorMsg in str(InputText.text).lower():
                             print("This Input is not unlocked yet")
                             return
 
                         else:
-                            f.write(Input_txt.text)
+                            f.write(InputText.text)
 
                         i += 1
 
@@ -112,9 +110,8 @@ print(f'Execution Time: {EndTime - StartTime}')
                             Part2_Counter += 1
 
                     if f.name.endswith("Ques.txt"):
-                        InputContent = Input_txtQues.text
+                        InputContent = InputTextQues.text
                         InputSoup = BeautifulSoup(InputContent)
-                        # print(InputSoup.get_text())
                         try:
                             text = str(InputSoup.body.main.article.text)
                             f.write(text)
