@@ -6,7 +6,7 @@ for now, the code makes a boilerplate file system with all years ie,(2015 to 202
 
 the file tree system are as follows:
 
-```
+```html
 D:.
 |
 \---AdventOfCode
@@ -25,6 +25,10 @@ D:.
     |	       <day>Ques.txt
     |	       README_<day>.md
 ```
-see the whole file system at [tree_fig.txt]()
+see the whole file system at [tree_fig.txt](https://github.com/denzven/AoCUtils_Denz/blob/main/tree_fig.txt)
 
 this project is still in WIP and I have planned to add a lot more funtions and features to make solving these puzzles easier and not a headache in organising hundreds of files :)
+
+Please do Star the repo if you found it useful,   
+
+Made with love 💜 and Python  
