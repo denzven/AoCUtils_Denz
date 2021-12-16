@@ -1,6 +1,6 @@
 ### README.md
 
-Hi! this is AoCUtilsDenz the short form of "Advent of Code Utilities by Denzven" its a small automation tool (in the making) to make it easier for ppl to solve the questions of AoC and organise and neaten up their code in the challenge.
+Hi! This is AoCUtilsDenz the short form of *"Advent of Code Utilities by Denzven"* its a small automation tool (WIP) to make it easier for people to solve the questions of AoC and organize and neaten up their code in the challenge.
 
 for now, the code makes a boilerplate file system with all years ie,(2015 to 2020) and all days (Day0 - Day25) all the Day0 days are empty and are kept as a place holder:
 
@@ -27,8 +27,31 @@ D:.
 ```
 see the whole file system at [tree_fig.txt](https://github.com/denzven/AoCUtils_Denz/blob/main/tree_fig.txt)
 
-this project is still in WIP and I have planned to add a lot more funtions and features to make solving these puzzles easier and not a headache in organising hundreds of files :)
+In addition to the file system, it fills the `<day>Input.txt` with the input of the puzzle using a SessionID [see here for more info]()
+and fills `<day>Part1.py` and `<day>Part2.py` with some boiler plate code like this:
 
-Please do Star the repo if you found it useful,   
+```py
+#Part <part> of Day<day>
 
-Made with love 💜 and Python  
+import time
+StartTime = time.time()
+InputFileLines = open('Day<day>Input.txt').readlines()
+
+#Code
+
+FinalAnswer = 
+
+EndTime = time.time()
+print(f"Final score: {FinalAnswer}")
+print(f'Execution Time: {EndTime - StartTime}')
+```
+
+This code dynamically changes adding the <part> and <day> in each file.
+
+This project is still in WIP and I have planned to add a lot more funtions and features to make solving these puzzles easier and not a headache in organising hundreds of files :)
+
+Please do Star the repo if you found it useful [⭐](https://github.com/denzven/AoCUtils_Denz)
+
+If you feel something needs to be added, open a issue to put in the suggestion or fork the repo and make a pull request 💜
+
+Made by [Denzven](https://github.com/denzven/) with love 💜 and [Python](https://github.com/topics/python)  
